@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-image: url('../img/header.jpg');
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    background-color: gray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+
+.housesImg {
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 250px;
+    height: 450px;
+    background: white;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: white;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+}
+
+.housesImg:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-image: url(../img/tải\ xuống.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer h4{
+    margin-top: 30px;
+}
+
+footer div{
+    margin-right: 15%;
+}
